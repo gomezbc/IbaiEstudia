@@ -5,7 +5,7 @@ sitiosbloqueados = [
     new RegExp('https:\/\/www\.youtube\.com\/.*'),
     new RegExp('https:\/\/www\.reddit\.com\/.*'),
     new RegExp('https:\/\/www\.tiktok\.com\/.*'),
-    new RegExp('https:\/\/www\.twitch.com\/.*')
+    new RegExp('https:\/\/www\.twitch\.tv\/.*') //twitch no es .com
 ];
 function coincidencia(sitio){
     for(var i=0;i<sitiosbloqueados.length;i++){
