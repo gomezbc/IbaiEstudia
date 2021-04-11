@@ -5,7 +5,11 @@ sitiosbloqueados = [
     new RegExp('https:\/\/www\.youtube\.com\/.*'),
     new RegExp('https:\/\/www\.reddit\.com\/.*'),
     new RegExp('https:\/\/www\.tiktok\.com\/.*'),
-    new RegExp('https:\/\/www\.twitch\.tv\/.*') //twitch no es .com
+    new RegExp('https:\/\/www\.twitch\.tv\/.*'),
+    new RegExp('https:\/\/www\.primevideo\.com\/.*'),
+    new RegExp('https:\/\/www\.netflix\.com\/.*'),
+    new RegExp('https:\/\/es\.hboespana\.com\/.*'),
+    new RegExp('https:\/\/ver\.movistarplus\.es\/.*'),
 ];
 function coincidencia(sitio){
     for(var i=0;i<sitiosbloqueados.length;i++){
